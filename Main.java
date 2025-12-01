@@ -6,7 +6,7 @@ public class Main {
         try (Connection connexion = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/testdb",
                 "postgres",
-                "ton_mot_de_passe")) {
+                "liantsoa123")) {
             System.out.println("Connexion réussie !");
         } catch (Exception e) {
             System.out.println("Erreur de connexion.");
